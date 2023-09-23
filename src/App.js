@@ -1,14 +1,15 @@
 import './App.css';
-import Coursel from './components/coursel/coursel';
-import Tape from './components/tape/tape';
-import Testimonial from './components/testimonial/testimonial';
+import { Routes, Route } from "react-router-dom";
+import Home from './components/Home'
+import Login from './components/Login/Login'
 function App() {
   return (
-    <div className="App">
-      <Coursel/>
-      <Tape/>
-      < Testimonial/>
-    </div>
+    <>
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route exact path="/login" element={<Login/>} />
+      </Routes>
+    </>
   );
 }
 

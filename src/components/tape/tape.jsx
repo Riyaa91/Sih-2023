@@ -1,13 +1,14 @@
 import React from 'react'
 import './tape.css';
-function tape(){
+import { NavLink } from 'react-router-dom';
+function Tape(){
   return (
     <div>
-        <div className='tape'>
-            Post your case
-        </div>
+        <NavLink to="/login" className='tape anchortag'>
+                Post Your Case
+        </NavLink>
     </div>
   )
 }
 
-export default tape
+export default Tape

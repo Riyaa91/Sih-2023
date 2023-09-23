@@ -3,10 +3,12 @@ import Carousel from "react-bootstrap/Carousel";
 import img1 from "../../images/A.jpg";
 import img2 from "../../images/c.jpeg";
 import img3 from "../../images/B.jpg";
-import "./coursel.css";
-function coursel() {
+import "./carousel.css";
+
+const Carous = () => {
   return (
-    <Carousel className="carousel-container" fade>
+    <>
+      <Carousel className="carousel-container" fade>
       <Carousel.Item>
         <img src={img1} alt="First slide" className="carousel-image" />
         <div className="d-none d-md-block">
@@ -53,7 +55,8 @@ function coursel() {
         </div>
       </Carousel.Item>
     </Carousel>
-  );
+    </>
+  )
 }
 
-export default coursel;
+export default Carous;
