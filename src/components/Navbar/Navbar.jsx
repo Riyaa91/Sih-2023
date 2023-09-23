@@ -24,32 +24,32 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item" style={{borderLeft:"1px solid white"}}>
-              <NavLink className="nav-link" to="/stationery">
+              <NavLink className="nav-link" to="/">
                 &nbsp;&nbsp;Family & Personal matters &nbsp;<FontAwesomeIcon icon={faPeopleRoof} />
               </NavLink>
             </li>
             <li className="nav-item" style={{borderLeft:"1px solid white"}}>
-              <NavLink className="nav-link" to="/stationery">
+              <NavLink className="nav-link" to="/">
                 &nbsp;&nbsp;Business &nbsp;<FontAwesomeIcon icon={faBusinessTime} />
               </NavLink>
             </li>
             <li className="nav-item" style={{borderLeft:"1px solid white"}}>
-              <NavLink className="nav-link" to="/stationery">
+              <NavLink className="nav-link" to="/">
                 &nbsp;&nbsp;Real Estate &nbsp;<FontAwesomeIcon icon={faSignHanging} />
               </NavLink>
             </li>
             <li className="nav-item" style={{borderLeft:"1px solid white"}}>
-              <NavLink className="nav-link" to="/stationery">
+              <NavLink className="nav-link" to="/">
                 &nbsp;&nbsp;Estate Planning &nbsp;<FontAwesomeIcon icon={faPersonHiking} />
               </NavLink>
             </li>
             <li className="nav-item" style={{borderLeft:"1px solid white"}}>
-              <NavLink className="nav-link" to="/stationery">
+              <NavLink className="nav-link" to="/">
                 &nbsp;&nbsp;Healthcare &nbsp;<FontAwesomeIcon icon={faNotesMedical} />
               </NavLink>
             </li>
             <li className="nav-item" style={{borderLeft:"1px solid white"}}>
-              <NavLink className="nav-link" to="/stationery">
+              <NavLink className="nav-link" to="/">
                 &nbsp;&nbsp;All Products &nbsp;<FontAwesomeIcon icon={faGlobe} />
               </NavLink>
             </li>

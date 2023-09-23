@@ -3,7 +3,7 @@ import { faEnvelope, faHouse, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light p-4 mt-5">
+    <footer className="bg-dark text-light p-4">
       <div className="container">
         <div className="row">
             <div className="col-md-4">
