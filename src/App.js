@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Coursel from './components/coursel/coursel';
+import Tape from './components/tape/tape';
+import Testimonial from './components/testimonial/testimonial';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Coursel/>
+      <Tape/>
+      < Testimonial/>
     </div>
   );
 }

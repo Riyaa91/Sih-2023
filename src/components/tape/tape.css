@@ -1,0 +1,10 @@
+.tape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  height: 10vh;
+  width: 100%;
+}
