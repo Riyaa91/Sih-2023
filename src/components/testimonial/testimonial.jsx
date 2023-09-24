@@ -7,7 +7,6 @@ import {
   MDBIcon,
   MDBRow,
 } from "mdb-react-ui-kit";
-
 export default function testimonial() {
   return (
     <MDBContainer className="py-5">
