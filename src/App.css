@@ -73,3 +73,9 @@
   background-color: white;
   color: #0c233b !important;
 }
+
+.form-label
+{
+  font-size: small;
+  color: grey;
+}

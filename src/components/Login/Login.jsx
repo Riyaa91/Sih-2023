@@ -22,7 +22,7 @@ const Login = () => {
                   </div>
                   <div class="col-xl-6">
                     <div class="card-body p-md-5 text-black">
-                      <h3 class="mb-5">Registration Form</h3>
+                      <h3 class="mb-5">Login Form</h3>
 
                       <div class="form-outline mb-4">
                         <input
